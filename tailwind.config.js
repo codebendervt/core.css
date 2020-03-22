@@ -14,7 +14,7 @@ module.exports = {
     },
     extend: {}
   },
-  prefix: 'gibs-',
+  prefix: 'devhub-',
   important: true,
   variants: {
     appearance: ['responsive'],
