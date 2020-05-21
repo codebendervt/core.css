@@ -515,6 +515,11 @@ module.exports = {
       '1000': '1000ms',
     },
   },
+<<<<<<< HEAD
+=======
+  prefix: 'devhub-',
+  important: true,
+>>>>>>> 92155b44f47125a8d2776ef89285c50cc52d5c6b
   variants: {
     accessibility: ['responsive', 'focus'],
     alignContent: ['responsive'],
