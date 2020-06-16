@@ -1,9 +1,9 @@
 module.exports = {
   purge: [],
   target: 'relaxed',
-  prefix: 'sd:',
+  //prefix: '',
   important: false,
-  separator: ':',
+  //separator: ':',
   theme: {
     screens: {
       sm: '640px',
@@ -17,9 +17,20 @@ module.exports = {
 
       black: '#000',
       white: '#fff',
-      primary:"#F9B299",
-      seconday:"#335863",
-      accent:"0A2C36"
+      grey: '#e3e5e4',
+      red: '#FF0000',
+      blue: '	#0000FF',
+      yellow: '#FFFF00',
+      orange: '#FFA500',
+      // primary:"#F9B299",
+      // seconday:"#335863",
+      // accent:"#0A2C36"
+
+      //bizbase 
+
+      // bizBasePrimary: "#ffd600",
+      // bizBaseSecondary: "#ffab00",
+      // bizBaseAccent: "#ffff52",
     },
     spacing: {
       px: '1px',
@@ -41,6 +52,8 @@ module.exports = {
       '48': '12rem',
       '56': '14rem',
       '64': '16rem',
+      '180': '1080px',
+      '192' : '1920px'
     },
     backgroundColor: theme => theme('colors'),
     backgroundOpacity: theme => theme('opacity'),
@@ -71,6 +84,7 @@ module.exports = {
       default: '0.25rem',
       md: '0.375rem',
       lg: '0.5rem',
+      mobile: '2rem',
       full: '9999px',
     },
     borderWidth: {
@@ -152,6 +166,7 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+      'gxl': '8rem'
     },
     fontWeight: {
       hairline: '100',
@@ -515,11 +530,6 @@ module.exports = {
       '1000': '1000ms',
     },
   },
-<<<<<<< HEAD
-=======
-  prefix: 'devhub-',
-  important: true,
->>>>>>> 92155b44f47125a8d2776ef89285c50cc52d5c6b
   variants: {
     accessibility: ['responsive', 'focus'],
     alignContent: ['responsive'],
